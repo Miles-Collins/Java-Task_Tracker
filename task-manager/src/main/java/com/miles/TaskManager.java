@@ -14,7 +14,7 @@ import com.google.gson.reflect.TypeToken;
 
 public class TaskManager {
 
-    private static final String TASKS_FILE = "src/main/resources/tasks.json";
+    private static final String TASKS_FILE = "C:/Users/miles/Coding/Java/task_tracker/task_traker/task-manager/src/main/resources/tasks.json";
     private List<Task> tasks;
     private Gson gson;
 
@@ -245,7 +245,7 @@ public class TaskManager {
             return tasks;
         } else {
             return filterTasksByStatus(status, filteredTasks);
-        }1
+        }
     }
 
     private List<Task> filterTasksByStatus(TaskStatus status, List<Task> filteredTasks) {

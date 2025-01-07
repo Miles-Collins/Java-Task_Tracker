@@ -33,7 +33,7 @@ public final class App {
                 case "exit":
                     System.out.println("Exiting Task Manager. Goodbye!");
                     scanner.close();
-                    break;
+                    return;
                 default:
                     System.out.println("Unknown command. Please try again.");
             }
